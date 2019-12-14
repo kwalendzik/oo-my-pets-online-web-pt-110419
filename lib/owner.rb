@@ -1,5 +1,6 @@
 class Owner
   
+  
   attr_reader :name, :species
   
   @@all = []
@@ -17,3 +18,6 @@ class Owner
   def say_species
     "I am a human."
   end
+  
+  
+end
